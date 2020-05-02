@@ -1,0 +1,11 @@
+{
+	"name": "zmcms/website_offer",
+	"description": "Oferta sprzedażowa w serwisie internetowym",
+	"authors": [
+		{
+		"name": "Piotr Szkudlarek",
+		"email": "pszkudlarek@zoltanmultimedia.pl"
+		}
+	],
+	"require": {}
+}
