@@ -23,8 +23,6 @@ class ZmcmsWebsiteOfferServiceProvider extends ServiceProvider{
 			__DIR__.'/frontend/js' => base_path('public/themes/'.Config('frontend.theme_name').'/frontend/js/'),
 			__DIR__.'/frontend/views' => base_path('resources/views/themes/zmcms/frontend'),
 		]);
-		View::addLocation(__DIR__.DIRECTORY_SEPARATOR.'/backend/views');
-		View::addLocation(__DIR__.DIRECTORY_SEPARATOR.'/frontend/views');
 	}
 
 }
