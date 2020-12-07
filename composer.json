@@ -8,11 +8,17 @@
 		}
 	],
 	"require": {},
-	
 	"autoload": {
-            "psr-4": {
-                "Zmcms\\WebsiteOffer\\": "src/"
-            },
+        "psr-4": {
+			"Zmcms\\WebsiteOffer\\Backend\\Controllers\\":"src/backend/controllers/",
+			"Zmcms\\WebsiteOffer\\Backend\\Middleware\\":"src/backend/middleware/",
+			"Zmcms\\WebsiteOffer\\Backend\\Routes\\":"src/backend/routes/",
+			"Zmcms\\WebsiteOffer\\Frontend\\Controllers\\":"src/frontend/controllers/",
+			"Zmcms\\WebsiteOffer\\Frontend\\Middleware\\":"src/frontend/middleware/",
+			"Zmcms\\WebsiteOffer\\Frontend\\Routes\\":"src/frontend/routes/",
+			"Zmcms\\WebsiteOffer\\Migrations\\":"src/migrations/",
+			"Zmcms\\WebsiteOffer\\":"src/"
+        },
             "files": ["src/helpers.php"]
     	},
 	"extra": {
