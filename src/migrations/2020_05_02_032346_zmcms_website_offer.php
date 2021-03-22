@@ -138,7 +138,7 @@ Schema::table($tblName, function($table) use ($tblNamePrefix){$table->foreign('p
 
 $tblName=$tblNamePrefix.'product_parameters';
 Schema::create($tblName, function($table){$table->string('token', 70);});
-Schema::create($tblName, function($table){$table->string('parameter', 20);});
+Schema::table($tblName, function($table){$table->string('parameter', 20);});
 Schema::table($tblName, function($table){$table->primary(['token', 'parameter'], 'zmcmsppkey1');});
 
 $tblName=$tblNamePrefix.'product_parameters_desctiptions';
